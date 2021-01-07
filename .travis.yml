@@ -1,3 +1,6 @@
 language: bash
 sudo: false
 script: make test
+arch:
+  - amd64
+  - ppc64le
